@@ -22,5 +22,12 @@
     "tslib": "^2.6.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@jamescoyle/svelte-icon": "^0.1.1",
+    "@mdi/js": "^7.4.47",
+    "@types/seedrandom": "^3.0.8",
+    "seedrandom": "^3.0.5",
+    "svelte-french-toast": "^1.2.0"
   }
 }
