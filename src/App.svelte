@@ -55,11 +55,11 @@
 <Toaster />
 
 <section
-    class="h-0 relative -top-24 flex items-baseline gap-4 w-0
-whitespace-nowrap"
+    class="flex flex-wrap mb-8 text-center justify-center items-baseline gap-x-4 w-0
+whitespace-nowrap mx-auto"
 >
-    <h1>rbnb</h1>
-    <span class="text-base">(rouge, bleu, noir, beige)</span>
+    <h1>Carte clé</h1>
+    <span class="text-base">(pour Code Names + Duo)</span>
 </section>
 
 <p class="mb-8 text-xl">
