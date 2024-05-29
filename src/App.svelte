@@ -10,7 +10,11 @@
         : generateSeed();
     let rng = seedrandom(seed);
 
-    $: pageUrl = new URL(document.URL).origin + '?seed=' + seed;
+    $: pageUrl =
+        new URL(document.URL).origin +
+        new URL(document.URL).pathname +
+        '?seed=' +
+        seed;
 
     function generateSeed() {
         let seed = '';
